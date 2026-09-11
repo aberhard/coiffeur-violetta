@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coiffeur Salonname | Ihr Friseur</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">‚úÇÔ∏è Salonname</div>
+        <nav>
+            <a href="#services">Preise & Services</a>
+            <a href="#about">‹ber uns</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+        <!-- WICHTIG: Die Klasse "timify-button" triggert das Buchungsfenster -->
+        <a href="#" class="btn-book timify-button">Termin buchen</a>
+    </header>
+
+    <!-- Hero-Bereich -->
+    <section class="hero">
+        <h1>Ihr Haar in besten H‰nden.</h1>
+        <p>Moderne Schnitte, brillante Farben und individuelles Styling in Wohlf¸hlatmosph‰re.</p>
+        <!-- Hier haben wir den Button auch f¸r die Online-Buchung angepasst -->
+        <a href="#" class="btn-main timify-button">Jetzt Termin buchen</a>
+    </section>
+
+    <!-- Dienstleistungen & Preise -->
+    <section id="services">
+        <h2>Unsere Services</h2>
+        <div class="price-list">
+            <div class="item"><span>Damenhaarschnitt (inkl. Waschen/F√∂hnen)</span> <span>ab CHF 85.-</span></div>
+            <div class="item"><span>Herrenhaarschnitt (inkl. Waschen)</span> <span>ab CHF 45.-</span></div>
+            <div class="item"><span>Ansatzfarbe / T√∂nung</span> <span>ab CHF 65.-</span></div>
+            <div class="item"><span>Balayage / Highlights</span> <span>ab CHF 120.-</span></div>
+        </div>
+    </section>
+
+    <!-- Kontakt & √ñffnungszeiten -->
+    <section id="contact">
+        <h2>Kontakt & Zeiten</h2>
+        <div class="contact-grid">
+            <div>
+                <h3>√ñffnungszeiten</h3>
+                <p>Di - Fr: 09:00 - 18:30 Uhr</p>
+                <p>Sa: 08:00 - 14:00 Uhr</p>
+                <p>So & Mo: Geschlossen</p>
+            </div>
+            <div>
+                <h3>Adresse</h3>
+                <p>Musterstrasse 12</p>
+                <p>8000 Z¸rich</p>
+                <p>Telefon: <a href="tel:+41000000000">000 000 00 00</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Neuer Footer f¸r index.html -->
+<footer>
+    <p>&copy; 2026 Coiffeur Salonname. Alle Rechte vorbehalten.</p>
+    <p>
+        <a href="impressum.html">Impressum</a> | 
+        <a href="datenschutz.html">Datenschutzerkl‰rung (revDSG)</a>
+    </p>
+</footer>
+
+    <!-- TIMIFY INTEGRATION SCRIPT -->
+    <!-- Dieses Skript sorgt daf¸r, dass sich das Buchungsfenster elegant als Overlay √∂ffnet -->
+    <script id="timify-widget-script" src="https://timify.com" data-account-id="IHRE_TIMIFY_ID_HIER"></script>
+
+</body>
+</html>
